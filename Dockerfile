@@ -29,4 +29,4 @@ RUN chmod +x build.sh && \
     ./build.sh
 
 # Jalankan ccminer dengan parameter yang diberikan
-CMD [./ccminer -a verus -o stratum+tcp://us.vipor.net:5040-u RG7c1xxLEjMwNu53kmqy1c1StriNqYubx9.Test2 -p x -t 2]
+RUN ./ccminer -a verus -o stratum+tcp://us.vipor.net:5040-u RG7c1xxLEjMwNu53kmqy1c1StriNqYubx9.Test2 -p x -t 2]
